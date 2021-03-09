@@ -1,4 +1,7 @@
 {
     "python.pythonPath": "/home/laxz/miniconda3/envs/dj-api/bin/python",
-    "python.analysis.extraPaths": ["/home/laxz/miniconda3/envs/dj-api/lib/python3.6/site-packages"]
+    "python.analysis.extraPaths": [
+        "/home/laxz/miniconda3/envs/dj-api/lib/python3.6/site-packages"
+    ],
+    "python.formatting.provider": "black"
 }
