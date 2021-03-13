@@ -7,7 +7,7 @@ from todos import models
 from .serializers import TodoSerializer
 
 class TodoViewSet(viewsets.ModelViewSet):
-    permission_classes = [IsAuthenticatedOrReadOnly]
-    authentication_classes = [TokenAuthentication]
+    # permission_classes = [IsAuthenticatedOrReadOnly]
+    # authentication_classes = [TokenAuthentication]
     queryset = models.Todo.objects.all().order_by('id')
     serializer_class = TodoSerializer
